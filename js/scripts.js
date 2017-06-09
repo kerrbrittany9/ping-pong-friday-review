@@ -4,9 +4,7 @@ function counting(countTo) {
   var result;
   for (var index = countBy; index <= countTo; index += countBy); { return listedNumbers.push(index + ",");
   }
-  if (isNaN(countTo)) {
-    alert("Please enter a number less than 4000.");
-  } else  if ((index % 3 === 0) && (index % 5 !== 0)) {
+    if ((index % 3 === 0) && (index % 5 !== 0)) {
     result = "ping";
   } else if ((index % 5 === 0) && (index % 3 !== 0)){
     result = "pong";
