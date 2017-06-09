@@ -1,24 +1,26 @@
-// back-end logic//
-var counting = function(countTo)
-var countBy = [1];
-var listedNumbers = [];
-for (var index = countBy; index <= countTo; index += countBy); { listedNumbers.push(index + ",");
-}
+$(document).ready(function() {
+  $("submitButton").click(function(event) {
+    event.preventDefault();
+    var countTo = parseInt($("input#count-to").val());
+    var result = counting(countTo);
+    var myNumber = countTo.toString();
+    var countBy = [1];
+    var listedNumbers = [];
+    $("#result").show(result);
+    $("#result").click(function(){
+    $(this).remove();
 
-  if ((index % 3 === 0) && (index % 5 !== 0)) {
+    for (var index = countBy; index <= countTo; index += countBy); { listedNumbers.push(index + ",");
+    }
+
+    if ((index % 3 === 0) && (index % 5 !== 0)) {
       result = "ping";
-  } else if ((index % 5 === 0) && (index % 3 !== 0)){
-    result = "pong";
-  } else if ((index % 3 === 0) && (index % 5 === 0)) {
-};
-    $(document).ready(function() {
-    $("submitButton").click(function(event) {
-      event.preventDefault();
-      var countTo = parseInt($("input#count-to").val());
-      var result = counting(countTo);
-      $("#result").show(result);
-      $("#result").click(function(){
-      $(this).remove();
-    });
+    } else if ((index % 5 === 0) && (index % 3 !== 0)){
+      result = "pong";
+    } else if ((index % 3 === 0) && (index % 5 === 0)) {
+      result = "ping-pong";
+    }
+      return result;
+    })
   });
 });

@@ -21,6 +21,9 @@ _This web app prompts the user to enter a number. The return will count up to th
 * _It can identify numbers
   *Example Input: words, symbols, non-numbers
   *Example Output: [NaN]
+* _It can count up to number given and return the numbers counted.
+  *Example Input: 5
+  *Example Output: [1,2,3,4,5]
 * _It can identify numbers that are divisible by 3 and return ping.
   *Example Input: 3
   *Example Output: 1,2,ping
@@ -30,9 +33,7 @@ _This web app prompts the user to enter a number. The return will count up to th
 * _It can identify identify numbers that are divisible by 15, differentiate these from the two former variables, and return ping-pong in its place.
   *Example Input: 15
   *Example Output: 1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14, ping-pong.
-* _It can count up to number given and return the numbers counted.
-  *Example Input: 5
-  *Example Output: [1,2,3,4,5]
+
 
 ## Known Bugs
 
