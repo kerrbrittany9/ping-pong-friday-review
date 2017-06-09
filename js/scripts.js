@@ -1,12 +1,9 @@
-$(document).ready(function() {
-  $("form#numberEntered").click(function(event) {
-    event.preventDefault();
-    var countTo = parseInt($("input#count-to").val());
 
+    var countTo = parseInt($("input#count-to").val());
+    var countBy = [1];
+    var listedNumbers = [];
     function counting(countTo) {
-      var countBy = [1];
-      var listedNumbers = [];
-      var result;
+      var result = "";
       for (var index = countBy; index <= countTo; index += countBy); { return listedNumbers.push(index + ",");
       }
       debugger
@@ -17,12 +14,12 @@ $(document).ready(function() {
       } else if ((index % 3 === 0) && (index % 5 === 0)) {
         result = "ping-pong";
       }
-        console.log(result);
         return result;
-
       }
-
-      $("#result").show(countTo);
+  $(document).ready(function() {
+    $("form#numberEntered").click(function(event) {
+      event.preventDefault();
+      $("#result").append(countTo);
       $("#result").click(function(){
       $(this).remove();
     });

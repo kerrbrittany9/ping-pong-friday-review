@@ -18,9 +18,6 @@ _This web app prompts the user to enter a number. The return will count up to th
 
 ## Specifications
 
-* _It can identify numbers
-  *Example Input: words, symbols, non-numbers
-  *Example Output: [NaN]
 * _It can count up to number given and return the numbers counted.
   *Example Input: 5
   *Example Output: [1,2,3,4,5]
