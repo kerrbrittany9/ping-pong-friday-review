@@ -2,11 +2,14 @@
   text-align: center;
   color: salmon;
 }
-
 body {
   background-color: #B8D2E3;
 }
 form {
+  color: #34495E;
+}
+.well {
+  text-align: justify;
   color: #34495E;
 }
 #result {

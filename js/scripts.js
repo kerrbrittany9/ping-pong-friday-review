@@ -1,5 +1,4 @@
 
-
 var counting = function(countTo)
 var countBy = [1];
 var listedNumbers = [];
