@@ -1,3 +1,14 @@
+.jumbotron {
+  text-align: center;
+  color: salmon;
+}
+
+body {
+  background-color: #B8D2E3;
+}
+form {
+  color: #34495E;
+}
 #result {
   display: none;
 }

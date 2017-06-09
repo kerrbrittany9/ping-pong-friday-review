@@ -1,6 +1,6 @@
 
 
-var countTo = parseInt($("input#countTo").val());
+var counting = function(countTo)
 var countBy = [1];
 var listedNumbers = [];
 for (var index = countBy; index <= countTo; index += countBy); { listedNumbers.push(index + ",");
@@ -10,13 +10,13 @@ for (var index = countBy; index <= countTo; index += countBy); { listedNumbers.p
       result = "ping";
   } else if ((index % 5 === 0) && (index % 3 !== 0)){
     result = "pong";
-  } else if ((index % 3 === 0) && (index % 5 === 0))
+  } else if ((index % 3 === 0) && (index % 5 === 0)) {
 };
 $(document).ready(function() {
   $("submitButton").click(function(event) {
     event.preventDefault();
-
-    $("#result").append(listedNumbers);
-    $("#result").show();
+    var countTo = parseInt($("input#count-to").val());
+    var result = counting(countTo);
+    $("#result").append(result;
   });
 });

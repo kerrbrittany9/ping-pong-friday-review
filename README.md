@@ -1,30 +1,26 @@
 # _Ping Pong Number Return_
 
-#### _input a number and return a range of numbers up to it, but if divisible by 3, 5 or 15 return ping, pong or ping-pong respectively , June 9, 2017_
+#### _input a number and get a list of numbers and symbols to return, June 9, 2017_
 
 #### By _**Brittany Kerr**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This web app prompts the user to enter a number. The return will count up to the number by ones and within the list switch any number divisible by 3, 5 or 15 will to ping, pong or ping-pong respectively._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone repository from GitHub to your local terminal.
+* _Double click on index.html to open in browser.
+* _Enter a number and click submit
+* _Read result.
+* _Click on input box to repeat._
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 ## Specifications
 
 * _It can identify numbers
   *Example Input: words, symbols, non-numbers
   *Example Output: [NaN]
-* _It can count up to number given and return the numbers counted.
-  *Example Input: 5
-  *Example Output: [1,2,3,4,5]
 * _It can identify numbers that are divisible by 3 and return ping.
   *Example Input: 3
   *Example Output: 1,2,ping
@@ -34,10 +30,13 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 * _It can identify identify numbers that are divisible by 15, differentiate these from the two former variables, and return ping-pong in its place.
   *Example Input: 15
   *Example Output: 1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14, ping-pong.
+* _It can count up to number given and return the numbers counted.
+  *Example Input: 5
+  *Example Output: [1,2,3,4,5]
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+
 
 ## Support and contact details
 
@@ -45,8 +44,7 @@ _Contact Brittany Kerr at kerrbrittany9@gmail.com with any questions or concerns
 
 ## Technologies Used
 
-_Bootstrap CSS was utilized for front-end styling, while Jquery 3.2.1 was utilized for business and user interface logic._
-
+_HTML 5, CSS, Bootstrap 3.3.7 dist, jquery-3.2.1
 ### License
 
 *GPL*
