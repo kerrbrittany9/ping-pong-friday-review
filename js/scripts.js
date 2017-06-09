@@ -1,5 +1,9 @@
 
 // get input number to return in a new array, count
+var countBy = [1]
+
+for (var index = countBy; index <= countTo; index += countBy)
+
 
 function singleDigit(number) {
   var result = "";
@@ -12,11 +16,11 @@ function singleDigit(number) {
   return result;
 };
 
-
+function doubleDigit()
 $(document).ready(function() {
   $("submitButton").click(function(event) {
     event.preventDefault();
-    var number = parseInt($("input#number").val());
+    var countTo = parseInt($("input#countTo").val());
     $("#result").append(number);
     $("#result").show();
   });
