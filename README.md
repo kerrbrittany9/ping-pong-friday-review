@@ -49,4 +49,4 @@ _HTML 5, CSS, Bootstrap 3.3.7 dist, jquery-3.2.1
 
 *GPL*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2017 **_Brittany Kerr_**

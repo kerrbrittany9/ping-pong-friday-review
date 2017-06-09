@@ -17,6 +17,7 @@ $(document).ready(function() {
     event.preventDefault();
     var countTo = parseInt($("input#count-to").val());
     var result = counting(countTo);
-    $("#result").append(result;
+    $("#result").append(result);
+    $(this).remove();
   });
 });
