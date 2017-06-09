@@ -3,7 +3,6 @@ $(document).ready(function() {
     event.preventDefault();
     var countTo = parseInt($("input#count-to").val());
     var result = counting(countTo);
-    var myNumber = countTo.toString();
     var countBy = [1];
     var listedNumbers = [];
     $("#result").show(result);
