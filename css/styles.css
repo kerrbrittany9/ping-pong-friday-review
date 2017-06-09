@@ -9,9 +9,19 @@ form {
   color: #34495E;
 }
 .well {
+  margin: 12px;
+  padding: 70px;
   text-align: justify;
   color: #34495E;
 }
 #result {
   display: none;
+  float: right;
+}
+img {
+  float:inherit;
+
+}
+form {
+  text-align: center;
 }
