@@ -12,7 +12,7 @@ _This web app prompts the user to enter a number. The return will count up to th
 
 * _Clone repository from GitHub to your local terminal.
 * _Double click on index.html to open in browser.
-* _Enter a number and click submit
+* _Enter a number and click submit.
 * _Read result.
 * _Click on input box to repeat._
 
