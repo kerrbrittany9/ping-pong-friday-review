@@ -1,19 +1,15 @@
 
-function counting(countTo) {
+var counting = function(countTo){
 var listedNumbers = [];
 var countBy = [1];
-function counting(countTo) {
-//   var result = "";
-for (var index = countBy; index <= countTo; index += countBy); {
-  var listedNumbers = listedNumbers.push(index + ",");
-  return listedNumbers
-  }
+for (var index = countBy; index <= countTo; index += countBy)
+  {  
   if (index % 15 === 0) {
-    result = "ping";
+    listedNumbers.push("ping-pong")
   } else if (index % 5 === 0) {
-    result = "pong";
+    listedNumbers.push("pong")
   } else if (index % 3 === 0) {
-    result = "ping-pong";
+    listedNumbers.push("ping")
   } else {
     listedNumbers.push(index)
   }
