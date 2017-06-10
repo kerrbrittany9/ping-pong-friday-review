@@ -14,10 +14,10 @@ for (var index = countBy; index <= countTo; index += countBy); {
     result = "ping-pong";
   }
 };
-$(document).ready(function() {
-  $("form#numberEntered").submit(function(event) {
+$(document).ready(function(){
+  $("form#numberEntered").submit(function(event){
     event.preventDefault();
-    var countTo = parseInt($("input#count-to").val());
+    var countTo = parseInt($("input#countTo").val());
       $("#result").show(listedNumbers);
       $("#result").click(function() {
       $(this).hide();
