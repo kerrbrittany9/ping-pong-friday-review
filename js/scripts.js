@@ -1,4 +1,4 @@
-
+// business
 var counting = function(countTo){
 var listedNumbers = [];
 var countBy = [1];
@@ -15,15 +15,16 @@ for (var index = countBy; index <= countTo; index += countBy)
     }
   } return listedNumbers;
 };
+
+// user interface
 $(document).ready(function(){
   $("form#numberEntered").submit(function(event){
     event.preventDefault();
     var countTo = parseInt($("input#countTo").val());
+    $("#result").empty();
+     var result = counting(countTo);
+     $("#result").append("<li>" + result + "</li>");
 
-    var result = counting(countTo);
-      $("#result").show(listedNumbers);
-      $("#result").click(function() {
-      $(this).hide();
-    });
   });
 });
+// DOM failed to execute query selector on all???? this is the debugger issue
