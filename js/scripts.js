@@ -1,7 +1,9 @@
 // business logic
-var counting = function(countTo) {
 
-  var listedNumbers = [];
+
+function counting(countTo) {
+
+var listedNumbers = [];
 
   for (var i = 1; i <= countTo; i += 1)
 
@@ -13,7 +15,7 @@ var counting = function(countTo) {
       listedNumbers.push("ping")
     } else {
       listedNumbers.push(i)
-    }
+    }return listedNumbers
   };
 
 
