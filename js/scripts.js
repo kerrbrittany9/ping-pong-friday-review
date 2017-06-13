@@ -1,8 +1,9 @@
-// business
-var counting = function(countTo){
+// business logic
+var counting = function(countTo) {
+
   var listedNumbers = [];
 
-  for (var i = countBy; i <= countTo; i += countBy)
+  for (var i = 1; i <= countTo; i += 1)
 
     if (i % 15 === 0) {
       listedNumbers.push("ping-pong")
@@ -13,19 +14,22 @@ var counting = function(countTo){
     } else {
       listedNumbers.push(i)
     }
-  // } return listedNumbers;
-};
+  };
 
-// user interface
+
+// user interface logic
 $(document).ready(function(){
   $("form#number-entered").submit(function(event){
-    alert(hey);
     event.preventDefault();
     var countTo = parseInt($("input#count-to").val());
-    $("#result").empty();
-     var result = counting(countTo);
-     $("#result").append("<li>" + result + "</li>");
+    var result = counting(countTo);
 
+    $("ul#result").append("<li class='list'>" + result + "</li>");
+
+    $(".list").click(function() {
+      $(this).remove();
+    });
+
+    $("input#count-to").val("");
   });
 });
-// DOM failed to execute query selector on all???? this is the debugger issue
