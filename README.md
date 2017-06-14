@@ -10,14 +10,15 @@ _This web app prompts the user to enter a number. The return will count up to th
 
 ## Setup/Installation Requirements
 
-* _In github copy the repository URL
+* _In github copy the repository URL   
+  https://github.com/kerrbrittany9/ping-pong-friday-review
 * _Open console and enter into Desktop
-* _Type command ""$ git clone url"
-* _To access code type command "atom ."
+* _Type command "$ git clone url"
+* _To access code type command "atom . "
 * _To access webpage type "open index.html_
 
 ## Specifications
-* _It can take input number and return a message.
+* _It can take input number and return a number.
   *Example Input: 5
   *Example Output: check it out! 5
 * _It can count up to number given and return the numbers counted.
