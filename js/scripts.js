@@ -27,7 +27,6 @@ $(document).ready(function(){
     var result = counting(countTo);
 
     $("ul#result").append("<li class='list'>" + result + "</li>");
-
     $(".list").click(function() {
       $(this).remove();
     });

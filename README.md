@@ -10,11 +10,11 @@ _This web app prompts the user to enter a number. The return will count up to th
 
 ## Setup/Installation Requirements
 
-* _Clone repository from GitHub to your local terminal.
-* _Double click on index.html to open in browser.
-* _Enter a number and click submit.
-* _Read result.
-* _Click on input box to repeat._
+* _In github copy the repository URL
+* _Open console and enter into Desktop
+* _Type command ""$ git clone url"
+* _To access code type command "atom ."
+* _To access webpage type "open index.html_
 
 ## Specifications
 * _It can take input number and return a message.
