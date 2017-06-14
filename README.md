@@ -13,9 +13,9 @@ _This web app prompts the user to enter a number. The return will count up to th
 * _In github copy the repository URL   
   https://github.com/kerrbrittany9/ping-pong-friday-review
 * _Open console and enter into Desktop
-* _Type command "$ git clone url"
-* _To access code type command "atom . "
-* _To access webpage type "open index.html_
+* _In console, type command "$ git clone url"
+* _In console, type command "atom . " to access code in atom.
+* _In console, type command "open index.html to access webpage.
 
 ## Specifications
 * _It can take input number and return a number.
@@ -27,17 +27,13 @@ _This web app prompts the user to enter a number. The return will count up to th
 * _It can identify numbers that are divisible by 3 and return ping.
   *Example Input: 3
   *Example Output: check it out! 1,2,ping
-* _It can simultaneously perform above and identify numbers that are divisible by 5 and return pong.
+* _It can simultaneously perform above and identify numbers that are divisible          by 5 and return pong.
   *Example Input: 5
   Example Output: check it out! 1,2,ping,4,pong
-* _It can identify numbers that are divisible by 15, differentiate these from the two former variables, and return ping-pong in its place.
+* _It can identify numbers that are divisible by 15, differentiate these from          the two former variables, and return ping-pong in its place.
   *Example Input: 15
   *Example Output: check it out! 1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14, ping-pong.
 
-
-## Known Bugs
-
-_This web app cannot successfully take input number and return a number, thus all other specs were not fulfilled.
 
 ## Support and contact details
 
